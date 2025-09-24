@@ -23,3 +23,36 @@ body {
     color: var(--cor-primaria);
     background-color: var(--cor-fundo);
 }
+/* Início do cabeçalho */
+header {
+    width: 100vw;
+    max-height: 10%;
+    padding: 1rem 1rem 0.625rem 1rem;
+    text-align: center;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-textos);
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+.empresa-nome {
+    font-weight: 600;
+    padding-bottom: 0.625rem;
+}
+.nav-conteudo {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-conteudo a {
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
+.nav-conteudo a[aria-current="page"] {
+    background-image: var(--cor-gradiente);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+/* Fim do cabeçalho */
