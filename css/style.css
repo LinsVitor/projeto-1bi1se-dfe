@@ -7,7 +7,6 @@
     --fonte-titulo: "Montserrat", sans-serif;
     --fonte-textos: "Roboto Condensed", sans-serif;
     --fonte-destaque: "Oswald", sans-serif;
-    --gap-navegacao: 1.75rem;
     --gap-servicos-card: 1.125rem;
     --gap-galeria: 0.3125rem;
 }
@@ -32,21 +31,23 @@ header {
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
     font-family: var(--fonte-textos);
-    font-size: 0.75rem;
+    font-size: clamp(0.8rem, 0.15rem + 3.2vw, 1rem);
     font-weight: 500;
 }
 .empresa-nome {
     font-weight: 600;
     padding-bottom: 0.625rem;
+    text-transform: uppercase;
 }
 .nav-conteudo {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .nav-conteudo a {
     color: var(--cor-secundaria);
     text-decoration: none;
+    text-transform: uppercase;
 }
 .nav-conteudo a[aria-current="page"] {
     background-image: var(--cor-gradiente);
@@ -56,3 +57,22 @@ header {
     color: transparent;
 }
 /* Fim do cabeçalho */
+/* Início do conteudo principal */
+main {
+    width: 100vw;
+    padding: 1rem 1rem 0 1rem;
+    text-align: center;
+    color: var(--cor-primaria);
+}
+.titulo-destaque {
+    font-family: var(--fonte-titulo);
+    font-weight: 700;
+    font-size: clamp(1.1rem, 0.125rem + 4.8vw, 1.4rem);
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+.frase-destaque {
+    font-family: var(--fonte-textos);
+    font-weight: 400;
+    font-size: clamp(0.625rem, 0.381rem + 1.2vw, 0.7rem);
+}
