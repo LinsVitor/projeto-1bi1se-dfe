@@ -11,3 +11,15 @@
     --gap-servicos-card: 1.125rem;
     --gap-galeria: 0.3125rem;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {font-size: 100%;}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.7;
+    color: var(--cor-primaria);
+    background-color: var(--cor-fundo);
+}
