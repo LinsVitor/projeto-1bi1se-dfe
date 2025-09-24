@@ -1,0 +1,13 @@
+:root {
+    --cor-primaria: #FFFFFF;
+    --cor-secundaria: #000000; 
+    --cor-fundo: #1E1E1E;
+    --cor-fundo-card-form: #D9D9D9;
+    --cor-gradiente: linear-gradient(180deg, #853347 35.1%, #57081E 64.9%);
+    --fonte-titulo: "Montserrat", sans-serif;
+    --fonte-textos: "Roboto Condensed", sans-serif;
+    --fonte-destaque: "Oswald", sans-serif;
+    --gap-navegacao: 1.75rem;
+    --gap-servicos-card: 1.125rem;
+    --gap-galeria: 0.3125rem;
+}
