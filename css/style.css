@@ -131,12 +131,14 @@ main {
 }
 .card-represetante {
     font-weight: 400;
+    margin-bottom: 2.25rem;
 }
 .card-represetante h3 {
     font-family: var(--fonte-titulo);
     font-weight: 300;
     font-size: clamp(0.625rem, -0.518rem + 5.714vw, 1rem);
     text-align: justify;
+    text-transform: uppercase;
     padding-bottom: 0.375rem;
 }
 .card-represetante div {
@@ -152,7 +154,29 @@ main {
 }
 .card-represetante div h3 {
     font-weight: 700;
+    text-transform: uppercase;
 }
 .card-represetante img {
     width: 10.5rem;
+}
+.galeria h3 {
+    font-family: var(--fonte-titulo);
+    font-size: 0.75rem;
+    font-weight: 300;
+    text-align: justify;
+    text-transform: uppercase;
+    padding-bottom: 0.375rem;
+}
+.galeria-exposicao {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    row-gap: var(--gap-galeria);
+}
+.galeria-exposicao img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    border-radius: 3px;
 }
