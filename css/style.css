@@ -129,3 +129,30 @@ main {
 .servicos-produtos article a {
     color: var(--cor-primaria);
 }
+.card-represetante {
+    font-weight: 400;
+}
+.card-represetante h3 {
+    font-family: var(--fonte-titulo);
+    font-weight: 300;
+    font-size: clamp(0.625rem, -0.518rem + 5.714vw, 1rem);
+    text-align: justify;
+    padding-bottom: 0.375rem;
+}
+.card-represetante div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    padding: 0.625rem;
+    font-family: var(--fonte-textos);
+    font-size: 0.625rem;
+    text-align: justify;
+}
+.card-represetante div h3 {
+    font-weight: 700;
+}
+.card-represetante img {
+    width: 10.5rem;
+}
