@@ -18,7 +18,7 @@
 html {font-size: 100%;}
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.7;
+    line-height: normal;
     color: var(--cor-primaria);
     background-color: var(--cor-fundo);
 }
@@ -75,4 +75,22 @@ main {
     font-family: var(--fonte-textos);
     font-weight: 400;
     font-size: clamp(0.625rem, 0.381rem + 1.2vw, 0.7rem);
+    padding-bottom: 1.625rem;
+}
+.card-destaque {
+    background-color: var(--cor-primaria);
+    font-family: var(--fonte-titulo);
+    color: var(--cor-secundaria);
+    border-radius: 3px;
+    padding: 0.625rem 0 0.625rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+.card-destaque-obras h2, .card-destaque-anos h2 {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+.card-destaque-obras p, .card-destaque-anos p {
+    font-weight: 400;
+    font-size: 0.625rem;
 }
