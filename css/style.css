@@ -159,6 +159,9 @@ main {
 .card-represetante img {
     width: 10.5rem;
 }
+.galeria {
+    margin-bottom: 1.625rem;
+}
 .galeria h3 {
     font-family: var(--fonte-titulo);
     font-size: 0.75rem;
@@ -179,4 +182,36 @@ main {
     height: auto;
     aspect-ratio: 16/9;
     border-radius: 3px;
+}
+.card-avaliacao h3 {
+    text-align: justify;
+    text-transform: uppercase;
+    font-family: var(--fonte-titulo);
+    font-size: clamp(0.75rem, -0.012rem + 3.81vw, 1rem);
+    font-weight: 300;
+    padding-bottom: 0.25rem;
+}
+.card-avaliacao div {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+    background-color: var(--cor-primaria);
+    border-radius: 3px;
+    color: var(--cor-secundaria);
+    text-align: justify;
+    padding: 0.5rem;
+    font-family: var(--fonte-destaque);
+    font-weight: 400;
+    font-size: clamp(0.625rem, -0.518rem + 5.714vw, 1rem);
+}
+.card-avaliacao-nome {
+    font-family: var(--fonte-titulo);
+    font-size: clamp(0.625rem, -0.518rem + 5.714vw, 1rem);
+    font-weight: 500;
+    background-image: var(--cor-gradiente);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
 }
