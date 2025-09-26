@@ -250,3 +250,49 @@ main {
     width: 9.375rem;
     aspect-ratio: 25/7;
 }
+.contato {
+    font-family: var(--fonte-textos);
+    font-size: var(--fonte-size-320-425px);
+    margin-bottom: var(--margin-bottom-secoes);
+}
+.contato h2 {
+    font-family: var(--fonte-titulo);
+    text-align: justify;
+    font-size: 0.75rem;
+    font-weight: 300;
+    padding-bottom: 0.375rem;
+}
+.contato > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    padding: 0.625rem;
+    border-radius: 3px;
+}
+.contato > div h3 {
+    text-transform: uppercase;
+    font-family: var(--fonte-titulo);
+    font-weight: 700;
+}
+.contato-botao-wpp {
+    color: var(--cor-primaria);
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: clamp(7.5rem, 5.976rem + 7.619vw, 8rem);
+    background-image: var(--cor-gradiente);
+    padding: 0.5rem;
+    border-radius: 6px;
+    font-family: var(--fonte-destaque);
+    font-size: var(--fonte-size-320-425px);
+}
+.contato-botao-wpp a {
+    text-decoration: none;
+    color: var(--cor-primaria);
+}
+.contato-botao-wpp img {
+    width: 0.75rem;
+    aspect-ratio: 1/1;
+}
