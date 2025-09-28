@@ -48,9 +48,11 @@ header {
     justify-content: space-around;
 }
 .nav-conteudo a {
+    display: inline-block;
     color: var(--cor-secundaria);
     text-decoration: none;
     text-transform: uppercase;
+    transition: transform 0.5s ease;
 }
 .nav-conteudo a[aria-current="page"] {
     background-image: var(--cor-gradiente);
@@ -128,6 +130,7 @@ main {
 }
 .servicos-produtos li a {
     color: var(--cor-primaria);
+    transition: transform 0.5s ease;
 }
 .card-represetante {
     font-weight: 400;
@@ -266,12 +269,14 @@ main {
     font-weight: 700;
 }
 .contato-botao-wpp {
+    display: inline-block;
     color: var(--cor-primaria);
     margin: 0 auto;
     background-image: var(--cor-gradiente);
     padding: 0.5rem;
     border-radius: 6px;
     font-family: var(--fonte-destaque);
+    transition: transform 0.5s ease;
 }
 .contato-botao-wpp a {
     text-decoration: none;
@@ -330,6 +335,10 @@ footer > p {
     padding: var(--fonte-size);
 }
 /* Fim do rodapé */
+/* hover em todas tag <a> */
+body a:hover, .contato-botao-wpp:hover {
+    transform: scale(1.2);
+}
 /* media querie para tablets */
 @media (min-width: 650px) and (max-width: 1024px){
     body {
