@@ -340,7 +340,7 @@ body a:hover, .contato-botao-wpp:hover {
     transform: scale(1.2);
 }
 /* media querie para tablets */
-@media (min-width: 650px) and (max-width: 1024px){
+@media (min-width: 650px) and (max-width: 1000px){
     body {
         font-size: 1rem;
     }
@@ -355,5 +355,40 @@ body a:hover, .contato-botao-wpp:hover {
     }
     .galeria-exposicao img {
         aspect-ratio: 4/3;
+    }
+}
+/* media querie para desktop */
+@media (min-width: 1024px) {
+    body {
+        font-size: 1rem;
+    }
+    main {
+        padding: 2rem 6rem 0 6rem;
+    }
+    footer > div {
+        justify-content: space-evenly;
+    }
+    .nav-conteudo {
+        justify-content: space-evenly;
+    }
+    .titulo-destaque {
+        font-size: 2.5rem;
+    }
+    .frase-destaque, .card-destaque-obras h2, .card-destaque-anos h2, .card-destaque-obras p, .card-destaque-anos p{
+        font-size: 1.5rem;
+    }
+    .card-destaque {
+        margin: 0 auto;
+        max-width: 62.5rem;
+        justify-content: space-evenly;
+    }
+    .servicos-produtos {
+        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    }
+    .galeria-exposicao {
+        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    }
+    .galeria img {
+        aspect-ratio: 16/9;
     }
 }
