@@ -335,12 +335,12 @@ footer > p {
     padding: var(--fonte-size);
 }
 /* Fim do rodapé */
-/* hover em todas tag <a> */
+/* :hover em todas tag <a> */
 body a:hover, .contato-botao-wpp:hover {
     transform: scale(1.2);
 }
 /* media querie para tablets */
-@media (min-width: 650px) and (max-width: 1000px){
+@media (min-width: 650px) {
     body {
         font-size: 1rem;
     }
@@ -379,6 +379,7 @@ body a:hover, .contato-botao-wpp:hover {
     }
     .card-destaque {
         margin: 0 auto;
+        margin-bottom: var(--margin-bottom-secoes);
         max-width: 62.5rem;
         justify-content: space-evenly;
     }
