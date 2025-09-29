@@ -17,3 +17,7 @@ O site da EMBRE foi escolhido como base para a recriação por recomendação do
 # Autor
 
 - [Vitor de Oliveira Lins](https://github.com/LinsVitor)
+
+# Observações
+
+Todas as imagens e alguns ícones utilizados neste projeto são de propriedade do site original [EMBRE Engenharia Geotéctonica](https://lp.embre.com.br/), sendo usados aqui apenas para fins de estudo e prática acadêmica.
