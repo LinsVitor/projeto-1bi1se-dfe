@@ -363,7 +363,7 @@ body a:hover, .contato-botao-wpp:hover {
         font-size: 1rem;
     }
     main {
-        padding: 2rem 6rem 0 6rem;
+        padding: 2rem 4.5rem 0 4.5rem;
     }
     footer > div {
         justify-content: space-evenly;
@@ -384,10 +384,10 @@ body a:hover, .contato-botao-wpp:hover {
         justify-content: space-evenly;
     }
     .servicos-produtos {
-        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
     }
     .galeria-exposicao {
-        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(435px, 1fr));
     }
     .galeria img {
         aspect-ratio: 16/9;
